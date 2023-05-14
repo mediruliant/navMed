@@ -15,19 +15,27 @@ ul li {
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 nav {
     height: 100px;
-    background-color: lightblue;
+    background-color: #F6F1F1;
     display: flex;
     align-items-center;
     justify-content: space-between;
     padding: 0 5%;
 }
+.nav-logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
 .nav-menu {
     display: flex;
     align-items: center;
+    font-size: 1.2rem;
 }
 .nav-menu-list {
     display: flex;
@@ -39,6 +47,10 @@ nav {
     display: flex;
     align-items: center;
     margin: 0 10px;
+    transition: 200ms ease;
+}
+.nav-menu-list li a:hover {
+    color: blue;
 }
 
 
@@ -53,6 +65,6 @@ nav {
 
 
 
-nav * {
+/* nav * {
     border: 0.4px solid gray;
-}
+} */
