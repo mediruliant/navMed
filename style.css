@@ -1,0 +1,58 @@
+@font-face {
+    font-family: lexend;
+    src: url('utility/fonts/Lexend-VariableFont_wght.ttf')
+}
+
+nav {
+    font-family: lexend, sans-serif;
+}
+body, nav, nav * {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+nav {
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items-center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+.nav-menu-list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu-list li a {
+    height: 40px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+
+
+
+
+.nav-menu-list-items-children {
+    display: none;
+}
+
+
+
+
+
+nav * {
+    border: 0.4px solid gray;
+}
