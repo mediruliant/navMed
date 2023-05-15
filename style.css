@@ -48,9 +48,12 @@ nav {
     align-items: center;
     margin: 0 10px;
     transition: 200ms ease;
+    border: 2px solid rgba(0,0,0,0);
+    border-radius: 40px;
 }
 .nav-menu-list li a:hover {
-    color: blue;
+    color: #000;
+    border: 2px solid gray;
 }
 
 
