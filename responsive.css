@@ -1,0 +1,40 @@
+
+@media screen and (max-width: 1000px){
+    .nav-menu {
+        position: absolute;
+        right: 0;
+        z-index: 10;
+        width: 50%;
+        width: 0%;
+        height: 100vh;
+        margin-right: 0;
+        background-color: lightblue;
+        justify-content: flex-end;
+        font-size: 3rem;
+        transition: 200ms;
+        overflow: hidden;
+    }
+    .nav-toggle {
+        display: block;
+    }
+    .nav-slide {
+        width: 50%;
+    }
+    .nav-menu-list {
+        flex-direction: column;
+        margin: 10%;
+        min-width: 300px;
+    }
+
+
+
+    .nav-menu-list-items-children {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-slide {
+        width: 100%;
+    }
+}

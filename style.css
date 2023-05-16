@@ -45,7 +45,7 @@ nav {
     justify-content: space-between;
 }
 .nav-menu-list li a {
-    height: 40px;
+    min-height: 40px;
     padding: 0 16px;
     display: flex;
     align-items: center;
@@ -59,9 +59,23 @@ nav {
     border: 2px solid gray;
 }
 
+.nav-toggle {
+    position: absolute;
+    z-index: 11;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-color: teal;
+    margin: 30px;
+    display: none;
+}
+
 // responsive 1000px
 
-@media screen and (max-width: 1000px){
+/* @media screen and (max-width: 1000px){
+    nav {
+        background-color: teal;
+    }
     .nav-menu {
         position: absolute;
         z-index: 10;
@@ -70,7 +84,7 @@ nav {
         margin-right: 0;
         background-color: #19A7CE;
     }
-}
+} */
 
 
 
@@ -84,6 +98,6 @@ nav {
 
 
 
-nav * {
+/* nav * {
     border: 0.4px solid gray;
-}
+} */
