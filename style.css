@@ -98,6 +98,24 @@ nav {
     display: none;
 }
 
+.nav-menu-list-items-children {
+    position: absolute;
+    z-index: 8;
+    left: 0;
+    right: 0;
+    top: 100px;
+    height: 0;
+    overflow: hidden;
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms 200ms ease;
+    transform-origin: top;
+}
+.menu-items:hover .nav-menu-list-items-children {
+    height: 400px;
+}
 
 
 
