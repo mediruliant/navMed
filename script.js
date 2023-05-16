@@ -1,9 +1,11 @@
 const toggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
+const overlay = document.querySelector('.overlay');
 
-toggle.addEventListener('click', function(){
-    navMenu.classList.toggle('nav-slide')
-});
+const slider = function(){
+    navMenu.classList.toggle('nav-slide');
+    overlay.classList.toggle('overlay-active');
+};
 
-console.log(toggle)
-console.log(navMenu)
+toggle.addEventListener('click', slider);
+overlay.addEventListener('click', slider);
